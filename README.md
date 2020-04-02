@@ -15,33 +15,32 @@ that route),
 * trains cannot turn back while moving from station to station.
 ## example input
 3 // number of stations\
-A // station name
-B // station name
-C // station name
-2 // number of routes
-A,B,3 // route from A to B that takes 3 units of time
-B,C,1 // route from B to C that takes 1 unit of time
-1 // number of deliveries to be performed
-D1,A,C,5 // delivery D1 with weight 5 located currently at station A that must be delivered to
-station C
-1 // number of trains
-T1,B,6 // train T1 with capacity 6 located at station B
+A // station name\
+B // station name\
+C // station name\
+2 // number of routes\
+A,B,3 // route from A to B that takes 3 units of time\
+B,C,1 // route from B to C that takes 1 unit of time\
+1 // number of deliveries to be performed\
+D1,A,C,5 // delivery D1 with weight 5 located currently at station A that must be delivered to station C\
+1 // number of trains\
+T1,B,6 // train T1 with capacity 6 located at station B\
 
 ## output
-performs all the deliveries,
-// example output
-current time -> 0 | train T1 is moving B -> A (1/3)
-current time -> 1 | train T1 is moving B -> A (2/3)
-current time -> 2 | train T1 is moving B -> A (3/3)
-current time -> 3 | train T1 arrived at A
-current time -> 3 | train T1 loaded D1
-current time -> 3 | train T1 is moving A -> B (1/3)
-current time -> 4 | train T1 is moving A -> B (2/3)
-current time -> 5 | train T1 is moving A -> B (3/3)
-current time -> 6 | train T1 arrived at B
-current time -> 6 | train T1 is moving B -> C (1/1)
-current time -> 7 | train T1 arrived at C
-current time -> 7 | train T1 unloaded D1
+performs all the deliveries,\
+// example output\
+current time -> 0 | train T1 is moving B -> A (1/3)\
+current time -> 1 | train T1 is moving B -> A (2/3)\
+current time -> 2 | train T1 is moving B -> A (3/3)\
+current time -> 3 | train T1 arrived at A\
+current time -> 3 | train T1 loaded D1\
+current time -> 3 | train T1 is moving A -> B (1/3)\
+current time -> 4 | train T1 is moving A -> B (2/3)\
+current time -> 5 | train T1 is moving A -> B (3/3)\
+current time -> 6 | train T1 arrived at B\
+current time -> 6 | train T1 is moving B -> C (1/1)\
+current time -> 7 | train T1 arrived at C\
+current time -> 7 | train T1 unloaded D1\
 Collapse
 
 
