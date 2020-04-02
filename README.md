@@ -13,7 +13,7 @@ that route),
 * loading and unloading packages has no time cost,
 * multiple trains can be at the same station, route at the same time,
 * trains cannot turn back while moving from station to station.
-#### example input
+## example input
 3 // number of stations
 A // station name
 B // station name
@@ -27,7 +27,7 @@ station C
 1 // number of trains
 T1,B,6 // train T1 with capacity 6 located at station B
 
-## To 
+## output
 performs all the deliveries,
 // example output
 current time -> 0 | train T1 is moving B -> A (1/3)
@@ -46,7 +46,7 @@ Collapse
 
 
 
-Things to consider for solution
+## Things to consider for solution
 * Language used Java8
 * Build tool Maven
 * Test library : Junit
