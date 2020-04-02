@@ -14,7 +14,7 @@ that route),
 * multiple trains can be at the same station, route at the same time,
 * trains cannot turn back while moving from station to station.
 ## example input
-3 // number of stations
+3 // number of stations\
 A // station name
 B // station name
 C // station name
